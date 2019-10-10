@@ -52,6 +52,42 @@ p.lead {
   font-size: 1.5rem;
 }
 
+blockquote {
+  color: #aeaeae;
+  font-family: Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  float: initial;
+  text-align: right;
+}
+blockquote h1 {
+  font-size: 4rem;
+}
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+blockquote p::before,
+blockquote p::after {
+  content: "“";
+  font-family: Georgia;
+  font-size: 80px;
+  margin: -2rem 0 0 -32px;
+  position: absolute;
+  opacity: 0.5;
+}
+
+blockquote p::after {
+  content: "”";
+  margin: -8px -4rem 0 0;
+}
+
+blockquote cite {
+  font-size: 1.5rem;
+}
+
+
 .social-icons a {
   display: inline-block;
   height: 32px;
