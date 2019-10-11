@@ -51,6 +51,9 @@
 					<a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
 				</li>
 				<li class="nav-item">
@@ -244,31 +247,33 @@
 
 		<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
 			<div class="w-100">
-				<h2 class="mb-3">Skills</h2>
+					<div class="text-center">
+						<h2 class="mb-5">Skills</h2>
+					</div>
 
 				<div class="subheading">Tools</div>
-					<ul class="list-inline dev-icons">
-						<li class="list-inline-item">
-							<i class="devicon-linux-plain"></i>
-						</li>
-						<li class="list-inline-item">
-							<i class="devicon-git-plain-wordmark"></i>
-						</li>
+				<ul class="list-inline dev-icons">
+					<li class="list-inline-item">
+						<i class="devicon-linux-plain"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-git-plain-wordmark"></i>
+					</li>
 
-						<li class="list-inline-item">
-							<i class="devicon-trello-plain-wordmark"></i>
-						</li>
-						<li class="list-inline-item">
-							<i class="devicon-visualstudio-plain"></i>
-						</li>
+					<li class="list-inline-item">
+						<i class="devicon-trello-plain-wordmark"></i>
+					</li>
+					<li class="list-inline-item">
+						<i class="devicon-visualstudio-plain"></i>
+					</li>
 				</ul>
 
 				<div class="subheading">Softskills</div>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-check"></i>
-							Team work</li>
-					</ul>
+				<ul class="fa-ul">
+					<li>
+						<i class="fa-li fa fa-check"></i>
+						Team work</li>
+				</ul>
 
           <div class="subheading">Programming Languages</div>
           <ul class="list-inline dev-icons">
@@ -285,13 +290,203 @@
                 <i class="devicon-python-plain-wordmark"></i>
               </li>
             </ul>
-  
+		</section>
 
-        <div class="mb-5"></div>
-          <h2 class="mb-3">Projects</h2>
+		<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+				<div class="w-100">
+					<div class="text-center">
+						<h2 class="mb-5">Projects</h2>
+					</div>
+	
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">Linber, IPC/RPC Linux kernel driver module</h3>
+							<div class="subheading mb-3">
+								Linber is a IPC/RPC mechanism implemented as driver module in the linux kernel, it allow a
+								Server application to register its service and a Client application to send a request with an
+								associated deadline to one of the registered services.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item">
+									<i class="devicon-c-plain"></i>
+								</li>
+								<li class="list-inline-item">
+									<i class="devicon-cplusplus-plain"></i>
+								</li>
+								<li class="list-inline-item">
+									<i class="devicon-linux-plain"></i>
+								</li>
+							</ul>
+						</div>
+					</div>
 
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">ESSTA, Energy Saving Smart-home distributed Temperature Application</h3>
+							<div class="subheading mb-3">
+								ESSTA is a distributed system with the aim to control the temperature in a distributed environment, it is composed by one control panel and multiple room’s units communicating on
+								top of the Xbee 802.15.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item">
+									<i class="devicon-c-plain"></i>
+								</li>
+								<li class="list-inline-item icon-from-text">
+									RTOS
+								</li>
+								<li class="list-inline-item icon-from-text">
+									OSEK
+								</li>
+								<li class="list-inline-item icon-from-text">
+									StateFlow
+								</li>
+							</ul>
+						</div>
+					</div>
 
-        </div>
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">Robotic Arm Inspector</h3>
+							<div class="subheading mb-3">
+								Robotic arm prototype to inspect the under vehicle mechanical components; it is realized on
+								top of ROS and simulated in a gazebo environment for an train’s pad inspector.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item">
+									<i class="devicon-cplusplus-plain"></i>
+								</li>
+								<li class="list-inline-item">
+									<i class="devicon-python-plain-wordmark"></i>
+								</li>							
+								<li class="list-inline-item icon-from-text">
+									ROS
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">A Neural System for Faithful Color Reproduction in Industrial Printing Processes</h3>
+							<div class="subheading mb-3">
+								A MATLAB tool used to generate and label the dataset used to train and test a Multi Layer
+								Perceptron to perceive the difference between color patches in Industrial Printing.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item icon-from-text">
+									MATLAB
+								</li>
+							</ul>		
+						</div>
+					</div>
+
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">IoT Bike Sharing Service</h3>
+							<div class="subheading mb-3">
+								An IoT oriented Bike sharing service running on top of oM2M architecture. The edge hardware mounted on each bike is implemented using Contiki OS and simulated in Cooja.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item">
+									<i class="devicon-java-plain-wordmark"></i>
+								</li>
+								<li class="list-inline-item icon-from-text">
+									REST
+								</li>
+								<li class="list-inline-item icon-from-text">
+									CoAP
+								</li>
+								<li class="list-inline-item icon-from-text">
+									Contiki
+								</li>	
+							</ul>
+						</div>
+					</div>
+
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">Real Time Domotic Control Panel</h3>
+							<div class="subheading mb-3">
+								A soft Real Time domotic application realized on top of ERIKA RTOS. The system is composed by LCD touch screen monitor, HTTP server, several sensors as Temperature, Humidity, PIR, Gas sensor and a relay actuator.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item">
+									<i class="devicon-c-plain"></i>
+								</li>
+								<li class="list-inline-item">
+									<i class="devicon-python-plain-wordmark"></i>
+								</li>
+								<li class="list-inline-item icon-from-text">
+									RTOS
+								</li>
+								<li class="list-inline-item icon-from-text">
+									Arduino
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">Smart Home Hub for Wearable devices, Wearable fall detector</h3>
+							<div class="subheading mb-3">
+								The project is a part of the Industrial Application and Innovation course. It’s composed by a
+								wearable device to run the fall detection algorithm and a middle node hub to connect the
+								wearable devices and comunicate with the Server.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item">
+									<i class="devicon-c-plain"></i>
+								</li>
+								<li class="list-inline-item">
+									<i class="devicon-python-plain-wordmark"></i>
+								</li>
+								<li class="list-inline-item icon-from-text">
+									RTOS
+								</li>
+								<li class="list-inline-item icon-from-text">
+									MATLAB
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="resume-content">
+							<h3 class="mb-0">Convolutional Code Generator</h3>
+							<div class="subheading mb-3">
+								VHDL implementation of a parametric Convolutional Code Generator to reinforce the comunication over a noise channel.
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<ul class="list-inline dev-icons-small">
+								<li class="list-inline-item">
+									<i class="devicon-python-plain-wordmark"></i>
+								</li>
+								<li class="list-inline-item icon-from-text">
+									VHDL
+								</li>
+								<li class="list-inline-item icon-from-text">
+									Xilinx
+								</li>
+							</ul>		
+						</div>
+					</div>
+				</div>
 		</section>
 
 		<hr class="m-0">
