@@ -7,7 +7,7 @@
 body {
 	font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	padding-top: 54px;
-  color: #606060;
+	color: #606060;
 }
 
 @media (min-width: 992px) {
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 34px;
+	font-size: 34px;
 }
 
 h3 {
@@ -47,8 +47,8 @@ p.lead {
 }
 
 .subtitle {
-  font-size: 28px;
-  font-weight: 500;
+	font-size: 28px;
+	font-weight: 500;
 }
 
 .subheading {
@@ -109,7 +109,8 @@ blockquote cite {
 }
 
 .social-icons a:hover {
-	background-color: #89c4ffe5;
+	background-color: white;
+	color: black !important;
 }
 
 .dev-icons {
@@ -150,7 +151,7 @@ blockquote cite {
 	}
 	#sideNav .navbar-brand {
 		display: flex;
-		margin: auto auto 0;
+		margin: 20% auto 0;
 		padding: 0.5rem;
 	}
 	#sideNav .navbar-brand .img-profile {
@@ -183,8 +184,16 @@ section.resume-section {
 	max-width: 75rem;
 }
 
+#interests {
+	height: 100vh;
+}
+
+#awards {
+	height: 100vh;
+}
+
 .resume-date{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -205,7 +214,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-	background-color: rgb(33, 113, 211) !important;
+	background-color: #495057 !important;
 }
 
 .text-primary {
