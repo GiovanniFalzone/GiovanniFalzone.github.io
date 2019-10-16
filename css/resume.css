@@ -38,11 +38,15 @@ h2 {
 }
 
 h3 {
-	font-size: 28px;
+	font-size: 24px;
+}
+
+p {
+	font-size: 1.15rem;
 }
 
 p.lead {
-	font-size: 1.15rem;
+	font-size: 1.5rem;
 	font-weight: 400;
 }
 
@@ -97,7 +101,7 @@ blockquote cite {
 	height: 40px;
 	width: 40px;
 	background-color: #495057;
-	color: #fff !important;
+	color: white !important;
 	border-radius: 100%;
 	font-size: 28px;
 	margin: 8px;
@@ -120,7 +124,7 @@ blockquote cite {
 	font-size: 40px;
 }
 .dev-icons .list-inline-item i:hover {
-	color: rgb(210, 50, 50);
+	color: rgb(0, 100, 215);
 }
 
 .icon-from-text {
@@ -159,7 +163,12 @@ blockquote cite {
 		max-height: 10rem;
 		border: 0.5rem solid rgba(255, 255, 255, 0.2);
 	}
-	#sideNav .navbar-collapse {
+
+  #sideNav .navbar-brand .img-profile:hover {
+		border: 0.25rem solid rgba(255, 255, 255, 0.25);
+	}
+
+  #sideNav .navbar-collapse {
 		display: flex;
 		align-items: flex-start;
 		flex-grow: 0;
@@ -177,6 +186,7 @@ blockquote cite {
 		display: block;
 	}
 }
+
 
 section.resume-section {
 	padding-top: 5rem !important;
@@ -214,19 +224,23 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-	background-color: #495057 !important;
+	background-color: rgb(0, 100, 215) !important;
 }
 
 .text-primary {
-	color: rgb(210, 50, 50) !important;
+	color: rgb(0, 100, 215) !important;
+}
+
+.TitleName {
+  font-weight: 600;
 }
 
 a {
-	color: rgb(210, 50, 50);
+	color: rgb(10, 100, 215);
 }
 
 a:hover, a:focus, a:active {
-	color: #824027;
+	color: red;
 }
 
 
