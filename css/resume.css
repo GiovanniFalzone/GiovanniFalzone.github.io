@@ -173,7 +173,6 @@ blockquote cite {
 	}
 	#sideNav .profile_img_container {
 		display: inline-block; /* shrink wrap to image */
-		overflow: hidden; /* hide the excess */
 		border-radius: 100%;
 	}
 
@@ -186,8 +185,7 @@ blockquote cite {
 	}
 
 	#sideNav .navbar-brand .img-profile:hover {
-		border: 0;
-		transform: scale(1.1);
+		transform: scale(1.2);
 	}
 
 	#sideNav .navbar-collapse {
