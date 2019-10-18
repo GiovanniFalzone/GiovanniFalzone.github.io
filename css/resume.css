@@ -61,6 +61,10 @@ p.lead {
 	font-size: 1.5rem;
 }
 
+.left {
+	text-align: left;
+}
+
 blockquote {
 	color: #aeaeae;
 	font-family: Tahoma, sans-serif;
@@ -74,26 +78,28 @@ blockquote h1 {
 }
 blockquote p {
 	font-style: italic;
-	margin-bottom: 0;
+	display: inline;
 }
 
 blockquote p::before,
 blockquote p::after {
 	content: "“";
 	font-family: Georgia;
-	font-size: 80px;
-	margin: -2rem 0 0 -36px;
+	font-size: 64px;
+	margin: -1rem 0 0 -32px;
 	position: absolute;
 	opacity: 0.5;
 }
 
 blockquote p::after {
 	content: "”";
-	margin: -8px -4rem 0 0;
+	margin: -4px -4rem 0 0;
 }
 
 blockquote cite {
-	font-size: 1.5rem;
+	margin: 0 0 0 38px;
+	font-size: 1rem;
+	color: black;
 }
 
 .social-icons a {
@@ -106,6 +112,7 @@ blockquote cite {
 	font-size: 28px;
 	margin: 8px;
 	text-align: center;
+	transition: transform .2s;
 }
 
 .social-icons a:last-child {
@@ -115,17 +122,23 @@ blockquote cite {
 .social-icons a:hover {
 	background-color: white;
 	color: black !important;
+	transform: scale(1.25);
 }
 
 .dev-icons {
 	font-size: 64px;
+	transition: transform .2s;
 }
 .dev-icons-small {
 	font-size: 40px;
+	transition: transform .2s;
 }
+
 .dev-icons .list-inline-item i:hover {
 	color: rgb(0, 100, 215);
 }
+
+
 
 .icon-from-text {
 	font-size: 24px;
@@ -158,17 +171,26 @@ blockquote cite {
 		margin: 20% auto 0;
 		padding: 0.5rem;
 	}
+	#sideNav .profile_img_container {
+		display: inline-block; /* shrink wrap to image */
+		overflow: hidden; /* hide the excess */
+		border-radius: 100%;
+	}
+
 	#sideNav .navbar-brand .img-profile {
 		max-width: 10rem;
 		max-height: 10rem;
 		border: 0.5rem solid rgba(255, 255, 255, 0.2);
+		display: block; /* no whitespace */
+		transition: transform .2s;
 	}
 
-  #sideNav .navbar-brand .img-profile:hover {
-		border: 0.25rem solid rgba(255, 255, 255, 0.25);
+	#sideNav .navbar-brand .img-profile:hover {
+		border: 0;
+		transform: scale(1.1);
 	}
 
-  #sideNav .navbar-collapse {
+	#sideNav .navbar-collapse {
 		display: flex;
 		align-items: flex-start;
 		flex-grow: 0;
@@ -232,7 +254,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .TitleName {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 a {
@@ -310,7 +332,14 @@ a:hover, a:focus, a:active {
 	border: 2px solid #999b9d;
 	border-radius: 100%;
 	background-color: #89c4ffe5;
+	transition: transform .2s;
 }
+
+
+.timeline-image:hover {
+	transform: scale(1.25);
+}
+
 
 .timeline > li .timeline-image h4 {
 	font-size: 10px;
