@@ -214,14 +214,6 @@ section.resume-section {
 	/* max-width: 75rem; */
 }
 
-#interests {
-	height: 100vh;
-}
-
-#awards {
-	height: 100vh;
-}
-
 .resume-date{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
